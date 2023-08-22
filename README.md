@@ -6,4 +6,4 @@
 4. Now go to the package.json file, and remove:   "main": "index.js",
 5. Then add a script:     "start": "(npx parcel ./index.html) & npm parcel watch ./index.html"
 6. This will start our development server and as well as whatever changes we will perform on the ts file corresponding changes will be reflected on the js file.
-
+7. now run the command : npm start
